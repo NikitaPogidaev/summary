@@ -4,89 +4,99 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Pozhidaev resume</title>
+        <link href="style.css" rel="stylesheet">
     </head>
     <body>
-        <table>
-            <tr>
-                <td>
-                    <img src="photo/green.jpg" width="200" alt="Avatar"/>
-                </td>
-                <td>
+        <div class="container">
+            <div class="info">
+                <img src="photo/green.jpg" width="200" alt="Avatar" class="Avatar"/>
+                <div class="for-me">
                     <h1>Пожидаев Никита</h1>
-                    <p><em>На данный момент я являюсь <strong>декоратором</strong>,<br> мастером по нанесению декоративных покрытий.</em></p>
+                    <p>На данный момент я являюсь <strong>декоратором</strong>,<br> мастером по нанесению декоративных покрытий.</p>
                     <p>Я люблю заниматься спортом и разработкой сайтов.</p>
-                </td>
-            </tr>
-        </table>
-        <hr>
-        <h3>Мои социальные сети</h3>
-        <ul>
-            <li><a href="https://vk.com/id481303725" target="_blank">VK Nikita Pozhidaev</a></li>
-            <li><a href="https://t.me/Artisan178" target="_blank">TG Artisan Lenux</a></li>
-        </ul>
-        <hr>
-        <h3>Мои хобби</h3>
-        <ol>
-            <li>Скалолазание</li>
-            <li>Програмирование</li>
-            <li>Кемпинг</li>
-            <li>Хайкинг</li>
-        </ol>
-        <hr>
-        <h2>Опыт работы</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Компания</th>
-                    <th>Должность</th>
-                    <th>Год</th>
-                    <th>Деятельность</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>"Стена в декоре"</td>
-                    <td>Технолог</td>
-                    <td>2012-2014</td>
-                    <td>Разработка образцов, продажа декоративного материала, консультирование клиентов.</td>
-                </tr>
-                <tr>
-                    <td>"А Галерея"</td>
-                    <td>Мастер-Декоратор </td>
-                    <td>2014-2017</td>
-                    <td>Работа на правительственных объектах в больших объемах.</td>
-                </tr>
-                <tr>
-                    <td>Салон "Италика"</td>
-                    <td>Мастер-технолог</td>
-                    <td>2017-2020</td>
-                    <td>Разработка образцов, Мастер-классы, консультирование и обучение мастеров.</td>
-                </tr>
-                <tr>
-                    <td>Фриланс</td>
-                    <td>Декоратор</td>
-                    <td>2020-по настоящее время</td>
-                    <td>Наёмная проектная работа.</td>
-                </tr>
-            </tbody>
-            <tfoot></tfoot>
-        </table>
-        <h2>Портфолио</h2>
-        <a href="portfolio.html">Портфолио</a>
-        <hr>
-        <h2>Связаться сомной</h2>
-        <form action="">
-            <label for="name">Ваше имя</label>
-            <input type="text" id="name" placeholder="Введите имя">
-            <br>
-            <label for="e-mail">e-mail</label>
-            <input type="text" id="e-mail" placeholder="Введите e-mail">
-            <br>
-            <label for="text">Коментарии</label>
-            <br>
-           <textarea id="text" rows="2" cols="15"></textarea>
-           <br>
-            <input type="submit" value="Связаться">
-        </form>
+                </div>
+           
+            </div>
+          
+            <div class="social">
+                <h3>Мои социальные сети</h3>
+               
+                    <a href="https://vk.com/id481303725" target="_blank">VK Nikita Pozhidaev</a>
+                    |
+                    <a href="https://t.me/Artisan178" target="_blank">TG Artisan Lenux</a>
+               
+            </div>
+         <div class="card bg-yellow">
+            <h3>Мои хобби</h3>
+            <ol class="list">
+                <li>Скалолазание</li>
+                <li>Програмирование</li>
+                <li>Кемпинг</li>
+                <li>Хайкинг</li>
+            </ol>
+        </div>
+        <div class="card bg-green">
+            <h2>Опыт работы</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Компания</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                        <th>Деятельность</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>"Стена в декоре"</td>
+                        <td>Технолог</td>
+                        <td>2012-2014</td>
+                        <td>Разработка образцов, продажа декоративного материала, консультирование клиентов.</td>
+                    </tr>
+                    <tr>
+                        <td>"А Галерея"</td>
+                        <td>Мастер-Декоратор </td>
+                        <td>2014-2017</td>
+                        <td>Работа на правительственных объектах в больших объемах.</td>
+                    </tr>
+                    <tr>
+                        <td>Салон "Италика"</td>
+                        <td>Мастер-технолог</td>
+                        <td>2017-2020</td>
+                        <td>Разработка образцов, Мастер-классы, консультирование и обучение мастеров.</td>
+                    </tr>
+                    <tr>
+                        <td>Фриланс</td>
+                        <td>Декоратор</td>
+                        <td>2020-по настоящее время</td>
+                        <td>Наёмная проектная работа.</td>
+                    </tr>
+                </tbody>
+                <tfoot></tfoot>   
+            </table>
+        </div>
+        <div class="card bg-red">
+            <h2>Портфолио</h2>
+            <a href="portfolio.html">Портфолио</a>
+        </div> 
+            <h2 class="contact">Связаться сомной</h2>
+            <form action="/">
+            <div class="row">
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>   
+                    <input type="text" id="name" placeholder="Введите имя">    
+                </div>    
+                <div class="form-group">   
+                    <label for="e-mail"> Ваш e-mail:</label>    
+                    <input type="text" id="e-mail" placeholder="Введите e-mail">    
+                </div>        
+            </div>
+                <div class="form-group">   
+                    <label for="text">Коментарии</label>    
+                    <textarea id="text" rows="2" cols="15"></textarea>    
+                </div>      
+                    <input class="btn" type="submit" value="Связаться!">
+            </form>  
+        <div style="margin-bottom: 500px;;"></div> 
     </body>
 </html>
