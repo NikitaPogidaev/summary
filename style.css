@@ -8,6 +8,33 @@ body {
     /*font: 16px normal 'Roboto', sans-serif;*/
 
 }
+
+@media (min-width: 768px) {
+    .info {
+      display: flex;
+      align-items: left;
+    }
+    
+    .Avatar {
+      width: 200px;
+      height: auto;
+      margin-right: 20px;
+    }
+   
+  }
+
+@media (max-width: 768px) {
+    .for-me {
+        display: block;
+        margin-left: -20px;
+    }
+    .Avatar {
+        width: 100%;
+        height: auto;
+        margin-left: -20px;     
+    }
+ 
+}
 .container {
     max-width: 750px;
     margin: auto;
@@ -32,10 +59,33 @@ a:visited {
 }
 
 .Avatar {
-    width: 200px;
+    width: 100%;
     border-radius: 28px;
     box-shadow: 9px 6px 14px rgba(0, 0, 0, 0.25);
+    
 
+}
+
+
+
+.for-me {
+    /* display: inline-block;
+    vertical-align: middle; */
+    margin-left: 20px;
+}
+
+/* .info {
+    margin-bottom: 20px;
+    display: flex;
+} */
+
+.social {
+    text-align: center;
+}
+
+.social-title {
+    text-align: left;
+    margin-left: 20px;
 }
 
 .info p {
@@ -45,10 +95,13 @@ margin: 0%;
 }
 .bg-yellow {
     background: #fff9dc;
+    
 }
 
 .bg-green {
     background: #e5ffe7;
+    overflow: auto;
+    text-align: left;
 }
 
 .bg-red {
@@ -60,12 +113,6 @@ margin: 0%;
     margin-bottom: 20px;
     border-radius: 20px; 
 }
-
-.info {
-    margin-bottom: 20px;
-    
-}
-
 
 .social {
     margin-bottom: 20px;
@@ -129,4 +176,8 @@ color: #000;
 }
 .row > .form-group:last-child {
     margin-right: 0px;
+}
+
+.btn:hover {
+    color: red;
 }
