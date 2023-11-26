@@ -26,12 +26,15 @@ body {
 @media (max-width: 768px) {
     .for-me {
         display: block;
-        margin-left: -20px;
+        text-align: center;
     }
     .Avatar {
         width: 100%;
         height: auto;
-        margin-left: -20px;     
+        display: inline-block;  
+    }
+    .for-me p {
+        text-align: left;
     }
  
 }
@@ -65,8 +68,6 @@ a:visited {
     
 
 }
-
-
 
 .for-me {
     /* display: inline-block;
@@ -106,6 +107,7 @@ margin: 0%;
 
 .text-scrol {
     overflow: auto;
+
 }
 
 .bg-red {
